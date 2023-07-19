@@ -330,7 +330,7 @@ bool OnCommand(HWND hWnd, WPARAM wParam, LPARAM lParam) {
 			DestroyWindow(hWnd);
 		}
 		break;
-	case ID_MENU_COPY_NEW:
+	case ID_MENU_COPY_NEW: // Add comment
 		// 最新のコピー内容のみを削除
 		if (!clipboardHistory.empty()) {
 			// クリップボードが空でない場合
